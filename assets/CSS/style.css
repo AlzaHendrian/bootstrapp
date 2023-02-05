@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #EEEEEE !important;
+}
+
+#content {
+  margin-top: 6em !important;
+}
+#submit-color {
+  background-color: orangered;
+  border: none;
+}
+
+#submit-color:hover {
+  background-color: #ff8b13;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+#img-content {
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+#projects-container {
+  width: 100%;
+  justify-content: center;
+  margin-left: 2px;
+}
+
+
+/* ADD PROJECT */
+#form-container {
+  margin-top: 8em;
+}
+.techno2 {
+  margin-left: -7em;
+}
+/* END ADD PROJECT */
+
+/* FORM CONTACT ME */
+.form-contact {
+  margin-top: 8em;
+}
+/* FORM CONTACT ME */
+
+@media (max-width: 1024px) {
+  /* NAVBAR */
+  .navbar-collapse {
+    text-align: center;
+  }
+  ul.navbar-nav {
+    margin-right: 16px !important;
+    margin-left: 0 !important;
+  }
+  /* END NAVBAR */
+
+  /* CONTENT */
+  #flex-box {
+    flex-direction: column;
+  }
+  #content {
+    width: 100% !important;
+    border-radius: 0 !important;
+  }
+  #content-title {
+    font-size: 4em;
+    margin-bottom: 20px !important;
+  }
+  #contact {
+    margin-top: -10px !important;
+    margin-bottom: 8em !important;
+  }
+  .icon {
+    font-size: 12em !important;
+    letter-spacing: 14px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+  h3.social-media {
+    display: flex !important;
+    letter-spacing: 0;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 600;
+    color: black;
+  }
+  i.text-dark:hover {
+    color: orangered !important;
+  }
+  #img-content {
+    width: 70% !important;
+  }
+
+  /* my project */
+  #project-container {
+    width: 90% !important;
+    margin: 1em auto !important;
+  }
+  /* my project */
+
+  /* END CONTENT */
+
+
+
+  /* ADD MY PROJECT */
+
+  #form-container{
+    margin-top: 7em;
+    margin-bottom: 7em;
+  }
+  #form-container form {
+    width: 90% !important;
+  }
+  .techno2 {
+    margin-left: -5em;
+  }
+
+  /* END MY PROJECT */
+
+
+
+
+  /* FORM CONTACT ME */
+  .form-contact {
+    margin-top: 7em;
+    margin-bottom: 7em;
+  }
+
+  .form-contact #form {
+    width: 90% !important;
+  }
+  /* END FORM CONTACT ME */
+}
+
+@media (max-width: 576px) {
+  .icon {
+    font-size: 5em !important;
+    margin-bottom: 1.5em;
+    letter-spacing: normal;
+  }
+
+  #img-content {
+    width: 90% !important;
+  }
+}
